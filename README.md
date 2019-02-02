@@ -2,7 +2,7 @@
 Confluent Kafka RPM based docker images
 
 
-#cp-zookeper
+# cp-zookeper
 
 #### Build the zookeeper image with cp-zookeeper as its name and run below command.
 
@@ -16,7 +16,7 @@ docker run -d \
 cp-zookeeper
 ```
 
-#cp-kafka
+# cp-kafka
 
 #### Build the kafka image with cp-kafka as its name and run below command.
 
@@ -31,7 +31,7 @@ docker run -d \
     cp-kafka
 ```
 
-#cp-schema-registry
+# cp-schema-registry
 
 #### Build the schema registry image with cp-schema-registry as its name and run below command.
 
@@ -46,7 +46,7 @@ docker run -d \
   cp-schema-registry
   ```
   
-  #cp-kafka-connect
+  # cp-kafka-connect
   
   #### Build kafka-connect-base image first then 
   #### Build the cp-kafka-connect image with cp-kafka-connect as its name and run below command.
