@@ -24,6 +24,7 @@ cp-zookeeper
 docker run -d \
     --net=host \
     --name=kafka \
+    -e _JAVA_OPTIONS="-Xms4096m -Xmx4096m"
     -e KAFKA_ZOOKEEPER_CONNECT=localhost:32181 \
     -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:29092 \
     -e KAFKA_BROKER_ID=2 \
