@@ -1,6 +1,7 @@
 # confluent-kafka-rpm
 Confluent Kafka RPM based docker images
 
+![alt text](https://github.com/subhashdasyam/confluent-kafka-rpm/raw/master/running.PNG "Confluent Kafka")
 
 # cp-zookeper
 
