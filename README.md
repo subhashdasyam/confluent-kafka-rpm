@@ -74,3 +74,7 @@ docker run -d \
   -e CONNECT_PLUGIN_PATH=/usr/share/java \
   cp-kafka-connect
   ```
+
+# License
+
+The project is licensed under the Apache 2 license. For more information on the licenses for each of the individual Confluent Platform components packaged in the images, please refer to the respective [Confluent Platform documentation for each component.](http://docs.confluent.io/current/platform.html)
