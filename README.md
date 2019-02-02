@@ -4,6 +4,8 @@ Confluent Kafka RPM based docker images based on CentOS 7.6
 In cp-base Dockerfile replace centos with rhel for building in RHEL. 
 Also make sure you copy your organisation's offline repo for RHEL for installing additional packages.
 
+##### Note: This is quick and dirty way to build the confluent kafka image
+
 ![alt text](https://github.com/subhashdasyam/confluent-kafka-rpm/raw/master/running.PNG "Confluent Kafka")
 
 # cp-zookeper
